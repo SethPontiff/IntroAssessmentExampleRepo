@@ -10,7 +10,7 @@ int main() {
     cout << "MyString Class - Assessment 2" << endl;
     cout << "==============================" << endl;
 
-    // Create and run the test suite
+    // Making and running the jank unit tests.
     TestSuite tests;
     tests.runAllTests();
     tests.displaySummary();

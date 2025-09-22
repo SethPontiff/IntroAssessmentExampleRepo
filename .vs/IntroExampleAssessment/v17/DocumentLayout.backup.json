@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\seth.pontiff\\Documents\\GitHub\\IntroAssessmentExampleRepo\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{89FF8EEB-CADB-4C76-95E0-56686AD1D67D}|IntroExampleAssessment.vcxproj|C:\\Users\\seth.pontiff\\Documents\\GitHub\\IntroAssessmentExampleRepo\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89FF8EEB-CADB-4C76-95E0-56686AD1D67D}|IntroExampleAssessment.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +35,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:133:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\seth.pontiff\\Documents\\GitHub\\IntroAssessmentExampleRepo\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\seth.pontiff\\Documents\\GitHub\\IntroAssessmentExampleRepo\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-22T14:30:08.517Z",
+              "EditorCaption": ""
             }
           ]
         }
