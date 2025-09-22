@@ -1,0 +1,14 @@
+﻿  Game.cpp
+  Items.cpp
+  main.cpp
+  MyString.cpp
+D:\Projects\IntroAssessmentExampleRepo\MyString.cpp(21,23): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\Projects\IntroAssessmentExampleRepo\MyString.cpp(52,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Projects\IntroAssessmentExampleRepo\MyString.cpp(63,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Projects\IntroAssessmentExampleRepo\MyString.cpp(72,28): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Projects\IntroAssessmentExampleRepo\MyString.cpp(74,41): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+  Player.cpp
+  TestSuite.cpp
+D:\Projects\IntroAssessmentExampleRepo\TestSuite.cpp(48,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  IntroExampleAssessment.vcxproj -> D:\Projects\IntroAssessmentExampleRepo\x64\Debug\IntroExampleAssessment.exe
