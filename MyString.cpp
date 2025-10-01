@@ -68,10 +68,26 @@ int MyString::Find(int startIndex, MyString findString) {
 }
 
 void MyString::Replace(MyString findString, MyString replaceString) {
-    int pos = 0;
-    while ((pos = data.find(findString.data, pos)) >= 0) {
-        data.replace(pos, findString.data.length(), replaceString.data);
-        pos += replaceString.data.length();
+
+    int position = 0;
+    // Keeping track of where we are in the string as we search. So 0 means we're starting from the beginning basically.
+
+    while ((position = data.find(findString.data, position)) >= 0) 
+    //data.find (findString.data, position)
+    //This searches for the first occurence of the findString.data starting from the index position.
+    //If it's found, find() returns the index where the match begins. If not, find() returns -1.
+    //>= 0 checks if we found a match.
+    // position = will update our position variable with the found index.
+    {
+        data.replace(position, findString.data.length(), replaceString.data);
+        //We go to the position, which is where we start the replacement.
+        //Then, we use findString.data.length() to see how many characters to remove.
+        //Finally, we use replaceString.data to read what we're going to insert into their place.
+
+        position += replaceString.data.length();
+        //This moves our search position past the newly inserted replacement string.
+        //Main reason we do this is to prevent infinite loops if the replacement string contains the search string.
+        //Also means we don't accidentally re-process the replacement text.
     }
 }
 
