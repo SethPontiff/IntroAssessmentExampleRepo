@@ -70,7 +70,7 @@ void Game::SetupRooms() {
     rooms[3] = Room("You are in a quiet bedroom with a comfortable bed.", "none");
 }
 
-//test
+//test why
 void Game::Run() {
     cout << "=== WELCOME TO THE TEXT ADVENTURE GAME ===" << endl;
     cout << "Type 'help' for a list of commands." << endl;
