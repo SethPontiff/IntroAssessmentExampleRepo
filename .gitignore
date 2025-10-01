@@ -10,3 +10,11 @@
 .vs/IntroExampleAssessment/v17/DocumentLayout.backup.json
 .vs/IntroExampleAssessment/v17/.suo
 .vs/IntroExampleAssessment/FileContentIndex/7c52b16f-b1dd-47b0-9320-8c296729c055.vsidx
+*.vsidx
+*.db
+*.db
+*.db-shm
+*.opendb
+*.db-wal
+*.db
+.vs/IntroExampleAssessment/v17/.suo
