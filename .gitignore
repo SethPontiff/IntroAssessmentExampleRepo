@@ -24,3 +24,5 @@
 *.json
 *.db
 .vs/IntroExampleAssessment/v17/.suo
+*.db
+*.vsidx
